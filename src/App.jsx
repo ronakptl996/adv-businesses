@@ -3,6 +3,7 @@ import "./App.css";
 import PremiumBusinesses from "./components/PremiumBusinesses/PremiumBusinesses";
 import FreeBusinesses from "./components/FreeBusinesses/FreeBusinesses";
 import EliteBusinesses from "./components/EliteBusinesses/EliteBusinesses";
+import Jobs from "./Pages/Jobs";
 
 function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -144,9 +145,11 @@ function App() {
         <h1>Featured Businesses</h1>
       </header>
       <main>
-        <PremiumBusinesses businesses={businesses} />
+        {/* <PremiumBusinesses businesses={businesses} />
         <EliteBusinesses businesses={businesses} />
-        <FreeBusinesses businesses={businesses} />
+        <FreeBusinesses businesses={businesses} /> */}
+
+        <Jobs />
       </main>
     </div>
   );

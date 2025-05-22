@@ -1,0 +1,89 @@
+.jobs-home-container {
+    background-color: #f9fafb;
+    padding-bottom: 60px;
+    font-family: "Inter", sans-serif;
+}
+
+.hero-section {
+    height: 50vh;
+    background: url('/images/jobs-hero-light.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-overlay {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-title {
+    color: #1e293b;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    color: #475569;
+    margin-top: 10px;
+}
+
+.section-grid {
+    margin-top: 40px;
+    padding: 0 30px;
+}
+
+.light-card {
+    height: 300px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.light-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    backdrop-filter: blur(8px);
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.5));
+    border-radius: 16px;
+}
+
+.card-title {
+    color: #1e293b;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.card-desc {
+    color: #64748b;
+    margin-bottom: 12px;
+}
+
+.card-button {
+    align-self: flex-start;
+    background-color: #3b82f6;
+    color: white;
+    text-transform: none;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 6px 16px;
+}
+
+.card-button:hover {
+    background-color: #2563eb;
+}
