@@ -3,3 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* SAMPLE CSS */
+.dummy-sample {
+    display: block;
+}
